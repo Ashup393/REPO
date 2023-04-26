@@ -1,0 +1,97 @@
+.bodyabout{
+    background: #e9c595;
+    /* height:50vh; */
+    height:100%;
+    width: 100%;
+}
+
+.about{
+    display: grid;
+    grid-template-columns:repeat(3,450px);
+    /* grid-gap: 0px; */
+    /* grid-column-gap: 10px;  */
+    /* height:70%; */
+    grid-row-gap: 50px;
+    padding-top: 8%;
+    
+    /* height:50%;
+    width:50% */
+}
+.about img{
+    height: 100%;
+} 
+ 
+.subgrid{
+  
+    display: flex;
+    /* padding-left: 5%; */
+    /* height:40%;
+    width: 20%; */
+    /* border:solid rgb(168, 8, 83); */
+    /* height:70%; */
+    /* width:90%; */
+    /* padding-bottom: 5%; */
+
+
+   
+}
+
+.subgrid :hover{
+    background-color: rgb(203, 224, 224)
+}
+
+
+
+.content{
+
+    padding-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(231, 42, 42, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* transition: width 2s, height 4s; */
+   
+    /* height: 75%; */
+    /* border:solid rgb(168, 8, 83); */
+    /* width: 100%; */
+    /* padding-bottom: ; */
+    /* background-color:rgb(216, 235, 163); */
+
+    padding: 10px 5px 5px 5px;
+    border-radius: 20px;
+    height: 60px;
+    width: 38%;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: left;
+    overflow: hidden;
+    
+
+    
+}
+.content:hover {
+    height: 355px;
+    width:auto;
+  }
+.image{
+    height: 100px;
+    width:98px;
+    
+    border:solid rgb(12, 8, 71);
+
+}
+/* .content :hover{
+    color:  rgb(229, 235, 235)
+} */
+
+.headingaboutme{
+text-align: center;
+font-family: 'Whyte Inktrap';
+font-style: normal;
+font-weight: 700;
+font-size: 43.2px;
+/* line-height: %; */
+/* or 62px */
+color: #000000;
+    
+}
